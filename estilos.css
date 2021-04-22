@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fonte;
+    src: url(googlesans.ttf);
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+.menu {
+    position: relative;
+    padding: 30px 50px;
+    background-color: transparent;
+}
+
+.logo {
+    position: absolute;
+    left: 150px;
+    right: 0;
+    margin-right: auto;
+    top: 18px;
+}
+
+.arquivo-de-doodles {
+    position: absolute;
+    left: 260px;
+    right: 0;
+    text-align: left;
+    top: 20px;
+    font-family: fonte;
+    font-size: 16px;
+    color: rgb(87, 134, 223);
+}
+
+.arquivo-de-doodles:hover {
+    color:rgb(0, 75, 214);
+}
+
+.sobre {
+    position: absolute;
+    left: 420px;
+    right: 0;
+    text-align: left;
+    top: 20px;
+    font-family: fonte;
+    font-size: 16px;
+    color: rgb(87, 134, 223);
+}
+
+.sobre:hover {
+    color:rgb(0, 75, 214);
+}
+
+.search {
+    position: absolute;
+    left: 0;
+    right: 140px;
+    margin-left: auto;
+    top: 14px;
+    width: 190px;
+    height: 30px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 0;
+    right: 150px;
+    margin-left: auto;
+    top: 21px;
+}
+
+.doodle-destaque {
+    position: relative;
+    padding: 170px 50px;
+    background-color: white;
+    border: 1px solid rgba(207, 206, 206, 0.685);
+}
+
+.doodle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 19px;
+}
+
+.nome-evento {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 390px;
+    background-color: white;
+    border: 1px solid rgba(207, 206, 206, 0.685);
+    width: 550px;
+    height: 130px;
+    box-shadow: 2px 2px 2px rgba(146, 145, 145, 0.212);
+}
+
+.data {
+    position: absolute;
+    left: 20px;
+    right: 0;
+    text-align: left;
+    top: 20px;
+    font-family: fonte;
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+}
+
+.nome {
+    position: absolute;
+    left: 20px;
+    right: 0;
+    text-align: left;
+    top: 60px;
+    font-family: fonte;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
+}
+
+.info-evento {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 540px;
+    background-color: white;
+    border: 1px solid rgba(207, 206, 206, 0.685);
+    width: 550px;
+    height: 415px;
+    box-shadow: 2px 2px 2px rgba(146, 145, 145, 0.212);
+}
+
+.bio {
+    position: absolute;
+    left: 20px;
+    right: 0;
+    text-align: left;
+    top: 10px;
+    font-family: fonte;
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 980px;
+}
+
+footer {
+    position: relative;
+    padding: 30px 50px;
+    background-color: rgba(190, 190, 190, 0.342);
+    top: 1000px;
+    font-family: fonte;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        position: relative;
+        padding: 50px 50px;
+        background-color: transparent;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 20px;
+        right: 0;
+        margin-right: auto;
+        top: 18px;
+        width: 170px;
+        height: 60px;
+    }
+    
+    .arquivo-de-doodles {
+        position: absolute;
+        left: 220px;
+        right: 0;
+        text-align: left;
+        top: 30px;
+        font-family: fonte;
+        font-size: 30px;
+        color: rgb(87, 134, 223);
+    }
+    
+    .sobre {
+        position: absolute;
+        left: 500px;
+        right: 0;
+        text-align: left;
+        top: 30px;
+        font-family: fonte;
+        font-size: 30px;
+        color: rgb(87, 134, 223);
+    }
+    
+    .search {
+        display: none;
+    }
+    
+    .icon-search {
+        position: absolute;
+        left: 0;
+        right: 20px;
+        margin-left: auto;
+        top: 25px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .doodle-destaque {
+        position: relative;
+        padding: 230px 50px;
+        background-color: white;
+        border: 1px solid rgba(207, 206, 206, 0.685);
+    }
+    
+    .doodle {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 27px;
+        width: 800px;
+        height: 400px;
+    }
+
+    .nome-evento {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 550px;
+        background-color: white;
+        border: 1px solid rgba(207, 206, 206, 0.685);
+        width: 900px;
+        height: 200px;
+        box-shadow: 2px 2px 2px rgba(146, 145, 145, 0.212);
+    }
+    
+    .data {
+        position: absolute;
+        left: 20px;
+        right: 0;
+        text-align: left;
+        top: 30px;
+        font-family: fonte;
+        font-size: 40px;
+        color: rgb(129, 129, 129);
+    }
+    
+    .nome {
+        position: absolute;
+        left: 20px;
+        right: 0;
+        text-align: left;
+        top: 100px;
+        font-family: fonte;
+        font-size: 40px;
+        color: rgb(59, 59, 59);
+    }
+    
+    .info-evento {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 800px;
+        background-color: white;
+        border: 1px solid rgba(207, 206, 206, 0.685);
+        width: 900px;
+        height: 800px;
+        box-shadow: 2px 2px 2px rgba(146, 145, 145, 0.212);
+    }
+    
+    .bio {
+        position: absolute;
+        left: 20px;
+        right: 0;
+        text-align: left;
+        top: 5px;
+        font-family: fonte;
+        font-size: 30px;
+        color: rgb(59, 59, 59);
+    }
+
+    .video {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 1650px;
+        width: 900px;
+        height: 500px;
+    }
+
+    footer {
+        position: relative;
+        padding: 50px 50px;
+        background-color: rgba(190, 190, 190, 0.342);
+        top: 1700px;
+        font-family: fonte;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+}
